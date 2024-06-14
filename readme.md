@@ -23,3 +23,10 @@ To run the script, follow these installation steps:
    git clone https://github.com/your-username/translation-script.git
    cd translation-script
    python main.py
+
+## More Details
+
+- **Retry Mechanism**: The script automatically retries translation for failed or inaccurate translations up to five times before marking it as "[Translation Failed]".
+- **Real-time Updates**: Each translated key-value pair is logged immediately into the output file (translated_string.strings) once confirmed as accurate.
+- **Error Handling**: Errors during translation or verification are logged to the console, providing transparency on translation status.
+- **Performance**: The script includes a built-in rate limiter to avoid overwhelming the Ollama API and ensure reliable translation performance.

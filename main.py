@@ -4,7 +4,7 @@ import time
 import json
 
 # Local Ollama API URL for chat endpoint
-OLLAMA_API_URL = 'https://b28e-2409-40e1-10f0-778-10a6-d5cb-3a07-b19b.ngrok-free.app/api/chat'
+OLLAMA_API_URL = 'your-ollama-endpoint/api/chat'
 
 def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
